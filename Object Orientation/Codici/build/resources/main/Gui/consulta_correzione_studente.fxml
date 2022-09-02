@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="382.0" prefWidth="581.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller_elenco_test_corretti_studente">
+   <children>
+      <ImageView fitHeight="143.0" fitWidth="124.0" layoutX="499.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../java/Icons/Visualizza_punteggio_icona.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnIndietro" layoutX="526.0" layoutY="338.0" mnemonicParsing="false" onMouseClicked="#menu" prefHeight="30.0" prefWidth="83.0" text="Indietro">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblElencoTest" layoutX="16.0" layoutY="27.0" text="Elenco dei test sostenuti">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TableView onMouseClicked="#click_test" fx:id="table_test" layoutX="16.0" layoutY="54.0" prefHeight="291.0" prefWidth="425.0" />
+      <Label layoutX="444.0" layoutY="211.0" text="Doppio click per visualizzare &#10;la correzione del test">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
