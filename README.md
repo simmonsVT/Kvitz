@@ -1,4 +1,4 @@
-![Kvitz](src/main/resources/Icons/logo.png)
+![Kvitz](Object Orientation/Codici/src/main/resources/Icons/logo.png)
 
 Applicativo gestionale per somministrazione e svolgimento test
 
