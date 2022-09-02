@@ -1,0 +1,27 @@
+.first-page_teacher{
+    -fx-background-color: linear-gradient(orange,darkorange);
+    -fx-background-radius: 10;
+    -fx-text-fill: lightgrey;
+    -fx-cursor: hand;
+}
+.first-page_teacher:hover{
+    fx-opacity: 0.5%;
+}
+.first-page_student{
+    -fx-background-color: linear-gradient(cornflowerblue,mediumslateblue);
+    -fx-background-radius: 10;
+    -fx-text-fill: lightgrey;
+    -fx-cursor: hand;
+}
+.first-page_student:hover{
+fx-opacity: 0.5%;
+}
+
+.clickable_label{
+    -fx-cursor: default;
+}
+
+.clickable_label:hover{
+    -fx-cursor: hand;
+    -fx-text-background-color: cornflowerblue ;
+}
