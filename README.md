@@ -1,4 +1,4 @@
-![Kvitz](Object Orientation/Codici/src/main/resources/Icons/logo.png)
+![Kvitz](https://github.com/simmonsVT/Kviz/blob/f5fc7504b1f3b48d922372a46e9a58ed43b39442/Object%20Orientation/Codici/src/main/resources/Icons/logo.png)
 
 Applicativo gestionale per somministrazione e svolgimento test
 
